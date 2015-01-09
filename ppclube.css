@@ -2,14 +2,12 @@
 	margin: 0px;
 	padding: 0px;
 	margin: 0 auto;
-/*	border: dashed red 1px;*/
 }
 #container{
-	width: 970px;
-	height: 800px;
+	width: 980px;
 }
 #header{
-	width: 970px;
+	width: 980px;
 	height: 68px;
 	background-color: #EDEDED;
 	text-align: center;
@@ -18,7 +16,6 @@
 		display: inline;
 	}
 	#header img{
-		vertical-align: left;
 		padding-right: 35px;
 	}
 	#contact{
@@ -26,7 +23,7 @@
 		margin-top: 35px;
 	}
 #menu{
-	width: 970px;
+	width: 980px;
 	height: 50px;
 	background-color: #DBE1E6;
 }
@@ -45,10 +42,8 @@
 		border-left: solid black 1px;
 		padding-left: 10px;
 	}
-
 #content{
-	width: 970px;
-	height: 700px;
+	width: 980px;
 	background-color: black;
 	display: inline-block;
 	vertical-align: top;
@@ -58,7 +53,7 @@
 		vertical-align: top;
 	}
 	#topcontent{
-		width: 970ps;
+		width: 980px;
 		display: inline-block;
 		vertical-align: top;
 	}
@@ -69,13 +64,12 @@
 		.feature{
 			border: solid white 10px;
 		}
-
 	#content img #hrlogo{
 		border: none;
 	}
 	#history{
 		width: 485px;
-		margin-left: 20px;
+		margin-left: 40px;
 	}
 	#content h3{
 		color: black;
@@ -105,11 +99,36 @@
 		vertical-align: top;
 		margin-top: 10px;
 		background-color: black;
-		font-size: 
 	}
 	#pagebreak img{
 		border-radius: 5px;
+		margin-bottom: 5px;
 	}
 	#pagebreak p{
 		color: #95995C;
+		padding: 0px;
+		margin-bottom: 5px;
+	}
+	div#botcontent{
+		display: inline-block;
+		border: solid black 3px;
+		border-bottom: solid black 10px;
+	}
+	#automotive, #commercial, #industrial, #diesel{
+		display: inline-block;
+		vertical-align: bottom;
+	}
+	#botcontent h4{
+		color: black;
+		background-color: #F9D047;
+		margin-left: 15px;
+		padding-right: 10px;
+	}
+	#botcontent p{
+		width: 214px;
+		height: 120px;
+		padding: 5px;
+		margin-left: 14px;
+		color: black;
+		background-color: white;
 	}
