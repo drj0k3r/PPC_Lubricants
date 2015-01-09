@@ -1,0 +1,58 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	margin: 0 auto;
+/*	border: dashed red 1px;*/
+}
+
+#container{
+	width: 970px;
+	height: 800px;
+}
+
+#header{
+	width: 970px;
+	height: 68px;
+	background-color: #EDEDED;
+	text-align: center;
+}
+	#header img, #contact{
+		display: inline;
+	}
+	#header img{
+		vertical-align: left;
+		padding-right: 35px;
+	}
+	#contact{
+		vertical-align: top;
+		margin-top: 35px;
+	}
+
+#menu{
+	width: 970px;
+	height: 50px;
+	background-color: #DBE1E6;
+}
+	#menu ul{
+		text-align: center;
+		padding-top: 10px;
+	}
+	#menu li{
+		display: inline;
+		border-right: solid black 1px;
+		padding-right: 10px;
+		color: #666666;
+		font-weight: bold;
+	}
+	#menu li:first-child{
+		border-left: solid black 1px;
+		padding-left: 10px;
+	}
+
+
+
+#content{
+	width: 970px;
+	height: 700px;
+	background-color: black;
+}
