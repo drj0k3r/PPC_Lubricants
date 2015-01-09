@@ -45,13 +45,71 @@
 		border-left: solid black 1px;
 		padding-left: 10px;
 	}
+
 #content{
 	width: 970px;
 	height: 700px;
 	background-color: black;
 	display: inline-block;
+	vertical-align: top;
 }
-	.content img{
-		border: solid white 10px;
-		margin-top: 5px;
+	#topcontent, #history{
+		display: inline-block;
+		vertical-align: top;
+	}
+	#topcontent{
+		width: 970ps;
+		display: inline-block;
+		vertical-align: top;
+	}
+	#content img{
+		margin-top: 8px;
+		margin-left: 15px;
+	}
+		.feature{
+			border: solid white 10px;
+		}
+
+	#content img #hrlogo{
+		border: none;
+	}
+	#history{
+		width: 485px;
+		margin-left: 20px;
+	}
+	#content h3{
+		color: black;
+		background-color: #F9D047;
+		margin-top: 8px;
+		padding-left: 15px;
+	}
+	#content h4{
+		background-color: #484848;
+		color: white;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+	}
+	#content p{
+		background-color: #484848;
+		color: white;
+		font-size: 13px;
+		padding-bottom: 15px;
+		padding-left: 20px;
+	}
+		.bolding{
+			font-weight: bold;
+		}
+	#pagebreak p, #pagebreak img{
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 10px;
+		background-color: black;
+		font-size: 
+	}
+	#pagebreak img{
+		border-radius: 5px;
+	}
+	#pagebreak p{
+		color: #95995C;
 	}
